@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "node_modules/.bin/cypress open",
+    "cypress:run": "node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoronufriychuk/cypress.git"
+  },
+  "author": "egor onufriychuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egoronufriychuk/cypress/issues"
+  },
+  "homepage": "https://github.com/egoronufriychuk/cypress#readme",
+  "dependencies": {
+    "cypress": "^4.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
