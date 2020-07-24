@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "baseUrl": "../node_modules",
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress"]
+    },
+    "include": [
+      "**/*.ts",
+      "plugins/index.js",
+      "../node_modules/@shelex/cypress-allure-plugin/reporter",
+      "../node_modules/cypress"
+    ]
+  }
+  
